@@ -1,0 +1,70 @@
+
+  <!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Stylish Landing Page</title>
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; font-family: 'Arial', sans-serif; }
+    body {
+      background: linear-gradient(135deg, #6C63FF, #3F3D56);
+      color: #fff;
+      display: flex; flex-direction: column; align-items: center; justify-content: center;
+      min-height: 100vh; text-align: center; padding: 20px;
+    }
+    h1 { font-size: 3em; margin-bottom: 20px; text-shadow: 2px 2px 5px rgba(0,0,0,0.3); }
+    p { font-size: 1.2em; margin-bottom: 30px; max-width: 600px; }
+    button {
+      background-color: #FF6584; color: #fff; padding: 15px 30px; border: none;
+      border-radius: 50px; font-size: 1em; cursor: pointer; transition: 0.3s;
+    }
+    button:hover { background-color: #FF4B6A; }
+    .links { margin-top: 40px; }
+    .links a {
+      color: #fff; margin: 0 15px; text-decoration: none; font-weight: bold; transition: 0.3s;
+    }
+    .links a:hover { color: #FF6584; }
+  </style>
+
+  <!-- Google Tag Manager -->
+  <script>
+    (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+    new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+    j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+    'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+    })(window,document,'script','dataLayer','GTM-WV4DDRP2'); 
+  </script>
+  <!-- End Google Tag Manager -->
+
+</head>
+<body>
+
+  <!-- Google Tag Manager (noscript) -->
+  <noscript>
+    <iframe src="https://www.googletagmanager.com/ns.html?id=GTM-WV4DDRP2"
+    height="0" width="0" style="display:none;visibility:hidden"></iframe>
+  </noscript>
+  <!-- End GTM (noscript) -->
+
+  <h1>Welcome to Our Landing Page</h1>
+  <p>Experience the simplicity of tracking user interactions with Google Tag Manager and Google Analytics 4. Click the button below to get started!</p>
+  
+  <button id="cta-button">Get Started</button>
+
+  <div class="links">
+    <a href="#">About Us</a>
+    <a href="#">Contact</a>
+    <a href="#">Blog</a>
+  </div>
+
+  <!-- Optional GA4 direct config (not required if GTM is sending data) -->
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-EZHRKJ1XB8'); // Replace with your GA4 Measurement ID
+  </script>
+
+</body>
+</html>
